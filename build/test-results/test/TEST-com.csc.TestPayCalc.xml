@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.csc.TestPayCalc" tests="19" skipped="0" failures="0" errors="0" timestamp="2024-09-07T22:53:47" hostname="Melissas-MacBook-Pro.local" time="0.019">
+  <properties/>
+  <testcase name="testPayForFiftyThreeHoursWorked()" classname="com.csc.TestPayCalc" time="0.007"/>
+  <testcase name="testDuesForZeroPayAndZeroDependents()" classname="com.csc.TestPayCalc" time="0.0"/>
+  <testcase name="testSocialSecurityWhenPayIs587Point30()" classname="com.csc.TestPayCalc" time="0.0"/>
+  <testcase name="testDuesFor998Point41PayAndOneDependent()" classname="com.csc.TestPayCalc" time="0.0"/>
+  <testcase name="testNetPayFor998Point41PayAndOneDependent()" classname="com.csc.TestPayCalc" time="0.0"/>
+  <testcase name="testSocialSecurityWhenPayIs500()" classname="com.csc.TestPayCalc" time="0.001"/>
+  <testcase name="testThreeDependents()" classname="com.csc.TestPayCalc" time="0.0"/>
+  <testcase name="testNetPayFor587Point30PayAndThreeDependents()" classname="com.csc.TestPayCalc" time="0.001"/>
+  <testcase name="testSocialSecurityWhenPayIsZero()" classname="com.csc.TestPayCalc" time="0.0"/>
+  <testcase name="testUnionDues()" classname="com.csc.TestPayCalc" time="0.0"/>
+  <testcase name="testFederalTaxWhenPayIsZero()" classname="com.csc.TestPayCalc" time="0.0"/>
+  <testcase name="testPayForZeroHoursWorked()" classname="com.csc.TestPayCalc" time="0.0"/>
+  <testcase name="testOneDependent()" classname="com.csc.TestPayCalc" time="0.001"/>
+  <testcase name="testNetPayForZeroPayAndZeroDependents()" classname="com.csc.TestPayCalc" time="0.0"/>
+  <testcase name="testPayForThirtyFiveHoursWorked()" classname="com.csc.TestPayCalc" time="0.001"/>
+  <testcase name="testFederalTaxWhenPayIs16Point78()" classname="com.csc.TestPayCalc" time="0.0"/>
+  <testcase name="testFiveDependents()" classname="com.csc.TestPayCalc" time="0.001"/>
+  <testcase name="testDuesFor587Point30PayAndThreeDependents()" classname="com.csc.TestPayCalc" time="0.0"/>
+  <testcase name="testFederalTaxWhenPayIs998Point41()" classname="com.csc.TestPayCalc" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
