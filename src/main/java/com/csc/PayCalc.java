@@ -2,13 +2,13 @@ package com.csc;
 
 public class PayCalc 
 {
-    public double grossPay(double hoursWorked)
+    public double grossPay(double payRate, double hoursWorked)
     {
         if (hoursWorked > 40.0) {
-            return (40.0 * 16.78) + ((hoursWorked-40.0) * 25.17); 
+            return (40.0 * payRate) + ((hoursWorked-40.0) * (payRate * 1.50)); 
         }
         else {
-            return hoursWorked * 16.78; 
+            return hoursWorked * payRate; 
         }
     }
 
@@ -26,6 +26,11 @@ public class PayCalc
     public double calcStateTax(double grossPay)
     {
         return grossPay * 0.05;
+    }
+
+    public double tentativeNetPay(double grossPay)
+    {
+        return grossPay - (calcSS(grossPay) + calcFederalTax(grossPay) + calcStateTax(grossPay));
     }
 
     public double unionDues()
